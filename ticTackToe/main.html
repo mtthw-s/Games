@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset= "UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/boardStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/cell.js"></script>
+    <script type="text/javascript" src="scripts/utilities.js"></script>
+    <script type="text/javascript" src="scripts/board.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <div id="gameWrapper" >
+      <div id="selection">
+        <label>Select '<strong>X</strong>' or '<strong>O</strong>' </label>
+        <br/>
+        <input type="radio" class="select" name="selector" value="X">X</input>
+        <input type="radio" class="select" name="selector" value="O">O</input>
+      </div>
+      <div id="boardWrapper">
+        <table id="board" >
+          <tr>
+            <td class="cell" ><img id="a1" src="res/quest.jpg" /></td>
+            <td class="cell" ><img id="a2" src="res/quest.jpg"  /></td>
+            <td class="cell" ><img id="a3" src="res/quest.jpg"  /></td>
+          </tr>
+          <tr>
+            <td class="cell" ><img id="b1" src="res/quest.jpg" /></td>
+            <td class="cell" ><img id="b2" src="res/quest.jpg" /></td>
+            <td class="cell" ><img id="b3" src="res/quest.jpg" /></td>
+          </tr>
+          <tr>
+            <td class="cell" ><img id="c1" src="res/quest.jpg" /></td>
+            <td class="cell" ><img id="c2" src="res/quest.jpg" /></td>
+            <td class="cell" ><img id="c3" src="res/quest.jpg" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </body>
+</html>

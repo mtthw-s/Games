@@ -1,0 +1,35 @@
+#boardWrapper{
+  height: 600px;
+  width: 600px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#gameWrapper{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+
+#board{
+  border-collapse: collapse;
+  height: inherit;
+  width: inherit;
+}
+
+.cell{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+#selection{
+  float: right;
+  position: relative;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
