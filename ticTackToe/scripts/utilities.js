@@ -3,8 +3,10 @@ function Utilities(){
         var location;
         var index = 0;
         var ans = [];
-        while((location = searchString.toLowerCase().indexOf(toBesearched, index)) > -1 ){
-              ans.push(location);
+        while((location = searchString[index].toLowerCase().indexOf(toBesearched, index)) > -1 ){
+            if(index == location){
+                ans.push(location);
+            }
               index++;
         }
         return ans;

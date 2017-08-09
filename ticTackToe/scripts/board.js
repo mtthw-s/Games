@@ -24,7 +24,7 @@ function Board(){
   ];
 
   this.SetCell = function(id, value) {
-    for (let i = 0; i < this._cells.length; i++) {
+    for (var i = 0; i < this._cells.length; i++) {
       if(this._cells[i].id === id){
         this._cells[i].SetValue(value);
         return;
